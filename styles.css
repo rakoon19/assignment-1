@@ -11,15 +11,17 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+/* nav */
 
 .navbar{
-    max-height: 92px;
+    height: 92px;
+    max-width: 1600px;
     display:flex;
     justify-content: space-between;
     background-color: #FFFFFF;
     width: 100%;
     padding: 16 120;
-
+    padding: 16px 120px;
 }
 
 .logo-navbar{
@@ -58,6 +60,7 @@ ul {
     color: #FFFFFF;
     font-weight: 600;
 }
+/* banner */
 .head-banner{
     background-image: url(resources-and-guides/assets/hero-bg.png);
     height: 100%;
@@ -66,4 +69,93 @@ ul {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding: 70px 120px 134px;
+    text-align: center;
+}
+.banner{
+    margin: 0 auto;
+    max-width:1360px;
+    height: 379px;
+}
+.banner-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner-h1, .note-h3{
+    margin:0 295px;
+    max-width: 1600px;
+    height: 168px;
+    align-items: center;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.banner-p, .note-p{
+    color:#FFFFFF;
+    align-items: center;
+    height: 60px;
+}
+.two-btn{
+    max-width: 100%;
+    height: 52px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+}
+/*styles of notes */
+
+.notes{
+    height: 448px;
+    background-color: #30B868;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.note-cards{
+    display: flex;
+    
+}
+.note-h3{
+    font-size: 50px;
+    color:#000000;
+   
+}
+.note-p{
+    text-align: center;
+}
+/* second brain */
+
+.second-brain{
+    display:flex;
+    height: 840px;
+    margin: 120px 0;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 60px;
+}
+/* early-access */
+
+.early-access{
+    height: 506px;
+    max-width: 1350px;
+    margin: 0 auto 120px;
+    background-color: #F7F6F2;
+}
+
+/* footer */
+
+footer{
+    background-color: #884b4b;
+}
+.footer{
+    height: 348px;
+    background-color: #884b4b;
+    max-width: 100%;
+    margin: 0 120px; 
+}
+.footer-socials{
+    display: flex;
+
 }
