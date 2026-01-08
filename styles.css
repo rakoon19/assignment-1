@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    width: 1600px;
+}
+.navbar{
+    max-height: 92px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 16 120;
+
+}
+.nav-paths{
+    display:flex;
+
+}
+.btn1 {
+    max-width: 164px;
+    height:44px;
+    background-color:#30B868;
+    padding: 12 16;
+    border-radius: 4px;
+    gap: 10px;
+    border:none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.head-banner{
+    background-image: url(resources-and-guides/assets/hero-bg.png);
+}
