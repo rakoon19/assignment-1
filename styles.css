@@ -153,9 +153,17 @@ footer{
     height: 348px;
     background-color: #884b4b;
     max-width: 100%;
-    margin: 0 120px; 
+    padding: 120px 120px 30px; 
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 .footer-socials{
     display: flex;
-
+    height: 64px;
+    justify-content: space-between;
+}
+.copyright{
+    height: 54px;
+    text-align: center;
 }
