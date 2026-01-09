@@ -82,5 +82,8 @@ ul {
     border: #ffffff 1px solid;
     background-color: transparent;
     color: #ffffff;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
