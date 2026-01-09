@@ -26,6 +26,7 @@ footer{
 .social-links{
     display: flex;
     gap: 16px;
+    width: 92px;
 }
 .icon-tag{
     max-width: 20px;
