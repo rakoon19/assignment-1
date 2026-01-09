@@ -1,0 +1,45 @@
+
+.second-brain{
+    display:flex;
+    height: 600px;
+    margin: 120px 0;
+    max-width: 1360px;
+    margin: 120px;
+    gap: 60px;
+}
+.second-brain-img{
+    width: 600px;
+    height: 600px;
+
+}
+.second-brain-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 396px;
+    margin: auto 0;
+    width: 700px;
+    
+}
+.second-brain-content-text, .second-brain-content-tiks{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.s-b-c-p {
+    color:#30B868;
+    font-size: 16px;
+    font-weight: 400;
+}
+.s-b-c-h {
+    font-weight: bold;
+    font-size: 48px;
+    color: #001931;
+}
+.s-b-c-p2 {
+    font-size: 16px;
+}
+.s-b-c-t{
+    font-size: 16px;
+    font-weight: 500;
+}
