@@ -1,0 +1,26 @@
+.btn-get-early-access-2,
+.btn-get-early-access,
+.btn-start-building-your-vault,
+.btn-see-how-it-works,
+.btn2 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-get-early-access-2:hover,
+.btn-get-early-access:hover,
+.btn-start-building-your-vault:hover,
+.btn-see-how-it-works:hover,
+.btn2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/* links also included*/
+.link-decorate {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.ink-decorate:hover {
+   transform: scale(1.05);
+   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+}

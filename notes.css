@@ -3,6 +3,10 @@
     background-color: #ffffff;
     margin: 0 auto;
     max-width: 1360px;
+    gap: 44px;
+    display: flex;
+    flex-direction: column;
+
 }
 .note-title{
     display: flex;
@@ -30,6 +34,7 @@
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .note-h3{
