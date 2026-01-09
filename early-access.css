@@ -34,4 +34,8 @@
     color: #FFFFFF;
     align-items: center;
     margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 162px;
 }
